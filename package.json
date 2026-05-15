@@ -1,0 +1,23 @@
+{
+  "name": "orangehrm-playwright-suite",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright automation suite for OrangeHRM login and user creation flows.",
+  "scripts": {
+    "install:browsers": "playwright install chromium",
+    "test": "playwright test",
+    "test:chrome": "playwright test --project=chrome",
+    "test:chrome:headed": "playwright test --project=chrome --headed",
+    "test:bundled-chromium": "playwright test --project=bundled-chromium",
+    "test:bundled-chromium:headed": "playwright test --project=bundled-chromium --headed",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}
