@@ -51,6 +51,10 @@ async function searchUser(page, username) {
   await page.getByRole('button', { name: 'Search' }).click();
 }
 
+async function placeholderStep(page) {
+  // Placeholder for the next OrangeHRM workflow step.
+}
+
 test.describe('OrangeHRM login and user creation', () => {
   test('logs in with valid admin credentials', async ({ page }) => {
     await login(page);
