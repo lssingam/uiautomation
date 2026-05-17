@@ -1,0 +1,18 @@
+{
+  "baseURL": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+  "login": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "userCreation": {
+    "role": "ESS",
+    "employeeSearch": "orange",
+    "status": "Enabled",
+    "usernamePrefix": "auto_user",
+    "password": "User@12345"
+  },
+  "userUpdate": {
+    "username": "",
+    "employeeSearch": "James  Butler"
+  }
+}
